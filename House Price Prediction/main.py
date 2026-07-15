@@ -7,6 +7,7 @@ from sklearn.compose import ColumnTransformer
 from sklearn.model_selection import train_test_split
 from sklearn.ensemble import RandomForestRegressor
 from sklearn.metrics import r2_score,mean_squared_error,mean_absolute_error
+import seaborn as sns
 
 dataset = pd.read_csv('housing.csv/housing.csv')
 
